@@ -1,10 +1,11 @@
 body {
-  background-color: #010165;
+  background: linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), url('./christine-roy-ir5MHI6rPg0-unsplash.jpg') center center/cover;
   margin: 0px;
+  color: #fff;
 }
 
 .header {
-  background-color: #00ffff;
+  background-color: rgba(105, 219, 105, 0.623);
   text-align: center;
 }
 
@@ -21,12 +22,14 @@ body {
 
 .instructions-title {
   display: inline;
-  font-size: 18px;
-  color: #00ffff;
+  /* position: absolute; */
+  font-size: 40px;
+  color: rgba(105, 219, 105, 0.623);
   font-family: 'Work Sans';
 }
 
 .instructions-row {
+  font-size: 18px;
   margin: 0 auto;
   width: 400px;
 }
@@ -35,7 +38,7 @@ body {
   padding-right: 25px;
   font-family: 'Work Sans';
   font-size: 36px;
-  color: #00ffff;
+  color: rgba(105, 219, 105, 0.623);
 }
 
 .door-row {
@@ -58,7 +61,7 @@ body {
 }
 
 #score {
-  background-color: aqua;
+  /* background-color: aqua; */
   text-align: center;
 }
 
